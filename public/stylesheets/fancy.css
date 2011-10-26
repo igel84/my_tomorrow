@@ -1,0 +1,264 @@
+/* line 1, ../../app/stylesheets/fancy.scss */
+div#fancy_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  width: 100%;
+  background-color: #333;
+}
+
+/* line 10, ../../app/stylesheets/fancy.scss */
+div#fancy_loading {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+  overflow: hidden;
+  background: transparent;
+  z-index: 100;
+}
+
+/* line 21, ../../app/stylesheets/fancy.scss */
+div#fancy_loading div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 480px;
+  background: transparent url(../images/fancybox/fancy_progress.png) no-repeat;
+}
+
+/* line 30, ../../app/stylesheets/fancy.scss */
+div#fancy_close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  height: 30px;
+  width: 30px;
+  background: transparent url(../images/fancybox/fancy_closebox.png);
+  cursor: pointer;
+  z-index: 100;
+  display: none;
+}
+
+/* line 42, ../../app/stylesheets/fancy.scss */
+div#fancy_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 96;
+}
+
+/* line 53, ../../app/stylesheets/fancy.scss */
+#fancy_frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+/* line 60, ../../app/stylesheets/fancy.scss */
+img#fancy_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 92;
+}
+
+/* line 72, ../../app/stylesheets/fancy.scss */
+div#fancy_title {
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+/* line 81, ../../app/stylesheets/fancy.scss */
+div#fancy_title table {
+  margin: 0 auto;
+}
+
+/* line 85, ../../app/stylesheets/fancy.scss */
+div#fancy_title div {
+  color: #FFF;
+  font: bold 12px Arial;
+  padding-bottom: 2px;
+}
+
+/* line 91, ../../app/stylesheets/fancy.scss */
+td#fancy_title_left {
+  height: 32px;
+  width: 15px;
+  background: transparent url(../images/fancybox/fancy_title_left.png) repeat-x;
+}
+
+/* line 97, ../../app/stylesheets/fancy.scss */
+td#fancy_title_main {
+  height: 32px;
+  background: transparent url(../images/fancybox/fancy_title_main.png) repeat-x;
+}
+
+/* line 102, ../../app/stylesheets/fancy.scss */
+td#fancy_title_right {
+  height: 32px;
+  width: 15px;
+  background: transparent url(../images/fancybox/fancy_title_right.png) repeat-x;
+}
+
+/* line 108, ../../app/stylesheets/fancy.scss */
+div#fancy_outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  padding: 18px 18px 58px 18px;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  display: none;
+}
+
+/* line 120, ../../app/stylesheets/fancy.scss */
+div#fancy_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #444;
+  background: #FFF;
+}
+
+/* line 128, ../../app/stylesheets/fancy.scss */
+a#fancy_left, a#fancy_right {
+  position: absolute;
+  bottom: 10px;
+  height: 100%;
+  width: 35%;
+  cursor: pointer;
+  background-image: url(data:image/gif;base64,AAAA);
+  z-index: 100;
+}
+
+/* line 138, ../../app/stylesheets/fancy.scss */
+a#fancy_left {
+  left: 0px;
+  outline: none;
+}
+
+/* line 143, ../../app/stylesheets/fancy.scss */
+a#fancy_right {
+  right: 0px;
+  outline: none;
+}
+
+/* line 148, ../../app/stylesheets/fancy.scss */
+a#fancy_left:hover {
+  background: transparent url(../images/fancybox/fancy_left.gif) no-repeat 0% 100%;
+}
+
+/* line 152, ../../app/stylesheets/fancy.scss */
+a#fancy_right:hover {
+  background: transparent url(../images/fancybox/fancy_right.gif) no-repeat 100% 100%;
+}
+
+/* line 156, ../../app/stylesheets/fancy.scss */
+#fancy_bigIframe, #fancy_freeIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+/* line 165, ../../app/stylesheets/fancy.scss */
+div#fancy_bg {
+  display: none;
+}
+
+/* line 169, ../../app/stylesheets/fancy.scss */
+div.fancy_bg {
+  position: absolute;
+  display: block;
+  z-index: 70;
+}
+
+/* line 175, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_n {
+  top: -18px;
+  width: 100%;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_n.png) repeat-x;
+}
+
+/* line 182, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_ne {
+  top: -18px;
+  right: -13px;
+  width: 13px;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_ne.png) no-repeat;
+}
+
+/* line 190, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_e {
+  right: -13px;
+  height: 100%;
+  width: 13px;
+  background: transparent url(../images/fancybox/fancy_shadow_e.png) repeat-y;
+}
+
+/* line 197, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_se {
+  bottom: -18px;
+  right: -13px;
+  width: 13px;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_se.png) no-repeat;
+}
+
+/* line 205, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_s {
+  bottom: -18px;
+  width: 100%;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_s.png) repeat-x;
+}
+
+/* line 212, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_sw {
+  bottom: -18px;
+  left: -13px;
+  width: 13px;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_sw.png) no-repeat;
+}
+
+/* line 220, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_w {
+  left: -13px;
+  height: 100%;
+  width: 13px;
+  background: transparent url(../images/fancybox/fancy_shadow_w.png) repeat-y;
+}
+
+/* line 227, ../../app/stylesheets/fancy.scss */
+div.fancy_bg_nw {
+  top: -18px;
+  left: -13px;
+  width: 13px;
+  height: 18px;
+  background: transparent url(../images/fancybox/fancy_shadow_nw.png) no-repeat;
+}

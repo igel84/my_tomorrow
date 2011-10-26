@@ -1,0 +1,141 @@
+/* line 2, ../../app/stylesheets/admin.scss */
+h1 {
+  font: normal 16px Tahoma,sans-serif;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: solid 2px #700;
+}
+
+/* line 15, ../../app/stylesheets/admin.scss */
+h2 {
+  font: bold 12px Tahoma,sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* line 27, ../../app/stylesheets/admin.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 30, ../../app/stylesheets/admin.scss */
+#admin_menu ul {
+  margin-right: 10px;
+  font: bold 15px Tahoma,sans-serif;
+}
+/* line 33, ../../app/stylesheets/admin.scss */
+#admin_menu ul li {
+  padding: 8px;
+  margin-bottom: 3px;
+  background: #bbb;
+}
+/* line 37, ../../app/stylesheets/admin.scss */
+#admin_menu ul li ul li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  font: normal 13px Tahoma,sans-serif;
+}
+/* line 46, ../../app/stylesheets/admin.scss */
+#admin_menu ul li .first {
+  background: #bbb;
+  padding-left: 0;
+  font: bold 13px Tahoma,sans-serif;
+}
+
+/* line 53, ../../app/stylesheets/admin.scss */
+#add_pokaz {
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  width: 130px;
+  height: 28px;
+  margin-bottom: 10px;
+}
+
+/* line 63, ../../app/stylesheets/admin.scss */
+#pokaz_table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 66, ../../app/stylesheets/admin.scss */
+#pokaz_table col:nth-child(2n+3) {
+  text-align: center;
+}
+/* line 67, ../../app/stylesheets/admin.scss */
+#pokaz_table td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #e4e5e5;
+}
+/* line 74, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(1) {
+  width: 80px;
+  text-align: right;
+}
+/* line 75, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(2) {
+  width: 80px;
+  text-align: center;
+}
+/* line 76, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(3) {
+  width: 60px;
+  text-align: right;
+}
+/* line 77, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+}
+/* line 78, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(5) {
+  width: 60px;
+  text-align: right;
+}
+/* line 79, ../../app/stylesheets/admin.scss */
+#pokaz_table td:nth-child(6) {
+  width: 240px;
+  text-align: center;
+}
+
+/* line 81, ../../app/stylesheets/admin.scss */
+#pokaz {
+  background: #f1f1f2;
+  border: solid 1px #cacbcc;
+  padding: 10px;
+  font: bold 12px Tahoma,sans-serif;
+}
+/* line 88, ../../app/stylesheets/admin.scss */
+#pokaz #date_but {
+  float: left;
+  margin-right: 30px;
+}
+/* line 95, ../../app/stylesheets/admin.scss */
+#pokaz .date {
+  margin-right: 10px;
+  margin-top: 7px;
+  float: left;
+}
+/* line 102, ../../app/stylesheets/admin.scss */
+#pokaz #time_text {
+  float: left;
+}
+/* line 104, ../../app/stylesheets/admin.scss */
+#pokaz #time_text input {
+  width: 22px;
+}
+/* line 106, ../../app/stylesheets/admin.scss */
+#pokaz #mesto {
+  margin-top: 10px;
+}
+/* line 116, ../../app/stylesheets/admin.scss */
+#pokaz #send_pokaz {
+  float: left;
+  margin-top: 10px;
+  margin-left: 0;
+}
